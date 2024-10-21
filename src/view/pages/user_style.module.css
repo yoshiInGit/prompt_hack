@@ -1,0 +1,83 @@
+.content_wrapper{
+    width: 100%;
+    display: flex;
+}
+
+.profile_wrapper{
+    flex-basis: 25%;
+    flex-shrink: 1;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile{
+    width: 80%;
+    height: 60vh;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile_img{
+    width: 80%;
+    aspect-ratio: 1/1;
+    background-color: rgb(180, 180, 180);
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+
+.profile_text{
+    width: 100%;
+    text-align: start;
+}
+
+.prompt_wrapper{
+    flex-basis: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prompt{
+    width: 90%;
+    min-height: 60vh;
+    padding : 2%;
+}
+
+.prompt_head{
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.prompt_el{
+    cursor: pointer;
+}
+
+.prompt_title{
+    text-align: start;
+    font-size: 1.2rem;
+    margin-bottom: 4px;
+}
+
+.prompt_sub{
+    text-align: start;
+    font-size: 0.9rem;
+    line-break: anywhere;
+    color: rgb(46, 46, 46);
+}
+
+.prompt_date{
+    text-align: end;
+    font-size: 0.7rem;
+    color: rgb(41, 41, 41);
+}
+
+.divider{
+    margin-top: 8px;
+    width: 100%;
+    height: 0.2px;
+    background-color: rgb(88, 88, 88);
+}

@@ -1,0 +1,92 @@
+.wrapper{
+    position: absolute;
+}
+
+.content_wrapper{
+    position: absolute;
+    width: 60%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.report{
+    margin-top: 24px;
+    width: 100%;
+    min-height: 124px;
+    padding: 24px;
+    margin-bottom: 48px;
+}
+
+.report_head{
+    text-align: start;
+    margin-bottom: 4px;
+}
+
+.report_date{
+    width: 100%;
+    text-align: end;
+    font-size: 0.7rem;
+    color: rgb(56, 56, 56);
+}
+
+.report_title{
+    width: 100%;
+    text-align: start;
+    font-size: 1.3rem;
+    margin-top: 8px;
+    color: rgb(35, 35, 35);
+}
+
+.report_sub{
+    width: 100%;
+    text-align: start;
+    font-size: 0.9rem;
+    color: rgb(72, 72, 72);
+    line-break: anywhere;
+}
+
+.prompt_wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.prompt_engine{
+    font-size: 0.7rem;
+    margin-bottom: 2px;
+}
+
+.me{
+    align-items: end;
+}
+
+.ai{
+    align-items: start;
+}
+
+.prompt{
+    width: 70%;
+    min-height: 148px;
+    padding: 12px;
+    margin-bottom: 24px;
+}
+
+.prompt_head{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 8px;
+}
+
+.prompt_body{
+    font-size: 0.9rem;
+    line-break: anywhere;
+    color: rgb(33, 33, 33);
+    text-align: left;
+}
+
+.icon_btn{
+    font-size: 1.2rem;
+    color: rgb(50, 50, 50);
+    cursor: pointer;
+}
