@@ -92,7 +92,12 @@
     resize:vertical;
 }
 
-.add_btn{
+.btn_wrapper{
+    display: flex;
+    gap: 12px;
+}
+
+.btn{
     width: 28px;
     height: 28px;
     display: flex;
@@ -101,4 +106,82 @@
     border: 1px solid rgb(34, 34, 34);
     border-radius: 50%;
     cursor: pointer;
+}
+
+/* PostModal */
+.engineModal_content{
+    width: 30%;
+    height: 60%;
+    padding: 24px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.engineModal_title{
+    text-align: start;
+    font-size: 1.1rem;
+    margin-bottom: 24px;
+}
+
+.engineModal_list{
+    width: 100%;
+    flex-grow: 1;
+    overflow-y: scroll;
+}
+
+.engineModal_engine{
+    text-align: start;
+    cursor: pointer;
+    line-height: 2.6rem;
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+
+.engineModal_engine:hover{
+    background-color: rgb(231, 231, 231);
+}
+
+/* InputEngineModal */
+.inputEngineModal_content{
+    width: 40%;
+    height: 20%;
+    padding: 12px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.inputEngineModal_title{
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+.inputEngineModal_input{
+    width: 100%;
+    border: none;
+    background-color: rgb(235, 235, 235);
+    outline:  none;
+    line-height: 2.4rem;
+    padding: 2px;
+    font-size: 1rem;
+    color: rgb(61, 61, 61);
+    border-radius: 4px;
+}
+
+.inputEngineModal_btnWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.inputEngineModal_btn{
+    margin-right: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(60, 60, 60);
+}
+
+.inputEngineModal_btn:hover{
+    color: rgb(41, 41, 41);
 }

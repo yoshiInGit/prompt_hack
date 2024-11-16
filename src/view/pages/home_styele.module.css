@@ -1,0 +1,73 @@
+.wrapper{
+    position: absolute;
+}
+
+.content_wrapper{
+    position: absolute;
+    width: 60%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.genre_wrapper{
+    margin-top: 48px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: space-between;
+}
+
+.genre{
+    width: 20%;
+    height: 32px;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: rgb(93, 93, 93);
+    padding: 12px;
+}
+
+.forYou{
+    margin-top: 62px;
+    width: 100%;
+    text-align: start;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.promptCards{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.promptCard_wrapper{
+    width: 43%;
+    height: 132px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.promptCard_title{
+    width: 100%;
+    text-align: start;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(50, 50, 50);
+}
+
+.promptCard_description{
+    width: 100%;
+    text-align: start;
+}

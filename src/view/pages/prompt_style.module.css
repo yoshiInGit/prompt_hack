@@ -83,6 +83,8 @@
     line-break: anywhere;
     color: rgb(33, 33, 33);
     text-align: left;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
 }
 
 .icon_btn{
