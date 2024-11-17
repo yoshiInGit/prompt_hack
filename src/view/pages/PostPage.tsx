@@ -69,28 +69,23 @@ const PostPage = () => {
         promptRefs.current[idx] = e.target.value;
     }
 
-    const { addPrompt, isLoading, error } = useAddPrompt();
+    const { addPrompt, isLoading} = useAddPrompt();
     const onTryPost = async () => {
         if(isLoading){
             return;
         }
 
-        console.log(titleRef.current);
-        console.log(descriptionRef.current);
-        console.log(engineRef.current);
-        console.log(promptRefs.current);
-
-        await addPrompt({
+        const docRef = await addPrompt({
             title : titleRef.current,
             description : descriptionRef.current,
             ai : engineRef.current,
             prompts : promptRefs.current,
         });
 
-        navigate("/prompt")
+        navigate(`/prompt/${docRef?.id}`)
     }
 
-    
+
 
 
     const SelectEngineModal = () => {

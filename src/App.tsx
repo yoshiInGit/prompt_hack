@@ -10,11 +10,11 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/"       element={<HomePage/>}/>
-        <Route path="/user"   element={<UserPage/>}/>
-        <Route path="/prompt" element={<PromptPage/>}/>
-        <Route path="/sign"   element={<SignPage/>}/>
-        <Route path="/post"   element={<PostPage/>}/>
+        <Route path="/"           element={<HomePage/>}/>
+        <Route path="/user"       element={<UserPage/>}/>
+        <Route path="/prompt/:id" element={<PromptPage/>}/>
+        <Route path="/sign/:mode"       element={<SignPage/>}/>
+        <Route path="/post"       element={<PostPage/>}/>
       </Routes>
     </BrowserRouter>
   )

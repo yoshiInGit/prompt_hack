@@ -1,4 +1,5 @@
 import AppBar from "../modules/AppBar";
+import PostBtn from "../modules/postBtn";
 import page_style from "./page_style.module.css"
 import home_style from "./home_styele.module.css"
 
@@ -90,6 +91,8 @@ const HomePage = ()=> {
             </div>
 
             <div style={{height:"64px"}}></div>
+
+            <PostBtn/>
         </div>
     );
 }

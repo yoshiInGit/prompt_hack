@@ -17,15 +17,6 @@ const useSignUp = () => {
       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
       const user = userCredential.user;
 
-      // // Firestoreにユーザーの追加情報を保存
-      // if (user) {
-      //   const userRef = doc(db, 'users', user.uid);
-      //   await setDoc(userRef, {
-      //     email: user.email,
-      //     createdAt: new Date()
-      //   });
-      // }
-
       setLoading(false);
       return user;
       
